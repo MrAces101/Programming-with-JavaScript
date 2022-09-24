@@ -16,8 +16,10 @@ var greeting = 'Hello';
 
 console.log(greeting, person); */
 
-//----- Declaring Variables Exercise
-var petDog = 'Rex'; // variable created to store dogs name
+
+//----- Declaring Variables Exercise--------
+
+/* var petDog = 'Rex'; // variable created to store dogs name
 var petCat = 'Pepper'; // variable created to store dogs name
 var catSound = 'purr'; // variable created to store cat sound
 var dogSound = 'Woof'; // variable created to store dog sound
@@ -32,4 +34,35 @@ console.log(petDog, 'says', dogSound); //displays message + dogs sound in consol
 console.log(petCat, 'says', catSound); //displays message + cats sound in console
 
 catSound = 'meow'; // variable created to change stored cats sound
-console.log(petCat, 'now says', catSound); //displays message + updated cat sound in console
+console.log(petCat, 'now says', catSound); //displays message + updated cat sound in console */
+
+
+//===========Operators-------------
+
+/* Arithmetic Operators in Js;
+    + Addition
+    - Subtraction
+    * Multiplication
+    / Division
+*/
+
+/* Comparison Operators in Js;
+    > greater than
+    < less than
+    == equal to
+*/
+
+/* Logical Operators in Js;
+    && And - Both are trus
+    || Or - either one or the oter is true
+    ! Not - None are true
+*/
+
+// console.log(2 + 2);
+// console.log(1 + 2 + 3 + 4 + 5);
+// console.log(20 - 18);
+// console.log(2 * 3);
+// console.log(8 / 1);
+// console.log(3 < 2);
+// console.log( 2 > 3);
+// console.log(10 == 10);
