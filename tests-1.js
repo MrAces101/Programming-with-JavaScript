@@ -130,3 +130,50 @@ switch(place) {
     default:
         console.log('No medal');
 } */
+
+//------Conditional Exercises------
+
+
+// using If else
+
+/* var age = 10;
+
+if(age >= 65) {
+    console.log("You get your income from your pension")
+} else if (age < 65 && age >= 18) {
+    console.log("Each month you get a salary");
+} else if (age < 18) {
+    console.log("You get an allowance");
+} else {
+    console.log("The value of the age variable is not numerical")
+} */
+
+// Using Switch
+
+/* var day = 'Wednesday';
+
+switch(day) {
+    case 'Monday':
+        console.log('Take Diving lessons');
+        break;
+    case 'Tuesday':
+        console.log('Take Cooking Lessons');
+        break;
+    case 'Wednesday':
+        console.log("Study Online");
+        break;
+    case 'Thursday':
+        console.log('Go to Gym');
+        break;
+    case 'Friday':
+        console.log('Go Clubing');
+        break;
+    case 'Saturday':
+        console.log('Go shooping');
+        break;
+    case 'Sunday':
+        console.log('Go to church');
+        break;
+    default:
+        console.log('Day not reconized!')
+} */
