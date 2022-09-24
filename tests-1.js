@@ -177,3 +177,23 @@ switch(day) {
     default:
         console.log('Day not reconized!')
 } */
+
+
+//-------Looping constructs-------
+
+// Using for loop to count down from 10 to 1
+
+/* for (var i = 10; i > 0; i--)
+{
+    console.log(i)
+} 
+console.log('Happy New Year!!') */
+
+// Using for loop to count down from 10 to 1
+
+/* var counter = 10;
+while (counter > 0) {
+    console.log(counter);
+    counter = counter - 1;
+} console.log('Happy new year!!'); */
+
