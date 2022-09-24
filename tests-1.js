@@ -96,3 +96,37 @@ var result2 = test2 == 0;
 console.log("Is", num1, "an even number?", result1);
 console.log("Is", num2, "an even number?", result2);
 */
+
+//--------Conditional Statements-------
+
+// if, else if, else
+
+/* var place = 'first';
+
+if(place == 'first') {
+    console.log("Gold")
+} else if (place == 'second') {
+    console.log('Silver')
+} else if (place == 'third') {
+    console.log('Bronze')
+} else {
+    console.log('No medal')
+} */
+
+// Switch Statement
+
+/* var place = 'second';
+
+switch(place) {
+    case 'first':
+        console.log('Gold');
+        break;
+    case 'second':
+        console.log('Silver');
+        break;
+    case 'third':
+        console.log('Bronse');
+        break;
+    default:
+        console.log('No medal');
+} */
