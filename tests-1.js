@@ -283,7 +283,7 @@ while (year < 2023) {
 
 //-------Functions-------
 
-function addTwoNums1() {
+/* function addTwoNums1() {
     var a = 10;
     var b = 20;
     var c = a + b;
@@ -296,4 +296,17 @@ function addTwoNums(a,b) { // Assigned fixed values as Parameters within the fun
     console.log(c);
 }
 
-addTwoNums(2,23); // Passing values as Agruments passed to the function
+addTwoNums(2,23); // Passing values as Agruments passed to the function */
+
+function letterFinder(word,match) {
+    for (var i = 0; i < word.length; i++) { // If the length of the value in peramiter 1 'word' is less than its lendth add 1
+        if(word[i] == match){ // if the value of i matches the match value
+            console.log('Found the', match, 'at', i); // If it matches return the found message
+        }
+        else {
+            console.log('---No match found at', i); // if it dose not match return no match message
+        }
+    }
+}
+letterFinder('test',"t"); // 'test is passed to peramiter 1 and 't' at paramiter 2
+
