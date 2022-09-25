@@ -231,3 +231,19 @@ while (year < 2023) {
     console.log(year);
     year = year + 1;
 } */
+
+//----Nested loops----
+
+// nested month / year loop
+/* for (var i = 2020; i < 2026; i++) {
+    console.log(i);
+    for (var j = 1; j < 6; j++) {
+        console.log("--------", j);
+    }
+} */
+
+/* for (var i = 100; i > 10; i = i - 10) {
+    for (var j = 23; j > 10; j = j - 7) {
+        console.log(i + " times " + j + " equals " + i * j);
+    }
+} */
