@@ -585,11 +585,3 @@ console.log('This line never runs'); // wont run */
 // } catch(e) {
 //     console.log('c')
 // }
-
-try {​
-    throw new Error();​
-    console.log('Hello');
-  } catch(err) {​
-    console.log('Goodbye');
-  }
-  
