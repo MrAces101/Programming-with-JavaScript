@@ -189,7 +189,7 @@ switch(day) {
 } 
 console.log('Happy New Year!!') */
 
-// Using for loop to count down from 10 to 1
+// Using while loop to count down from 10 to 1
 
 /* var counter = 10;
 while (counter > 0) {
@@ -197,3 +197,37 @@ while (counter > 0) {
     counter = counter - 1;
 } console.log('Happy new year!!'); */
 
+// Task 1 - for loop / ++
+/* for (var i = 1; i < 6; i++) {
+    console.log(i)
+} console.log("Counting completed!") */
+
+// Task 2 - for loop / --
+/* for (var i = 5; i > 0; i--) {
+    console.log(i)
+} console.log("Countdown finished! "); */
+
+//Task 3 - while loop / ++
+/* var i = 1;
+while (i < 6) {
+    console.log(i);
+    i = i + 1;
+} 
+console.log("Counting completed!") */
+
+// Task 4 - while loop / --
+/* var i = 5;
+
+while (i > 0) {
+    console.log(i);
+    i = i - 1;
+}
+console.log('Countdown finished! ') */
+
+// Task 5 - while loop years / ++
+/* var year = 2018;
+ 
+while (year < 2023) {
+    console.log(year);
+    year = year + 1;
+} */
