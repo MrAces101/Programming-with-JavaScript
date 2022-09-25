@@ -442,7 +442,7 @@ console.log(greeting.toLowerCase()); // "hello" */
 
 //---- Array and object exercise
 
-var clothes = []; // Creates empty array
+/* var clothes = []; // Creates empty array
 clothes.push('Hat','Pants','shoes','backpack','belt'); // Adds 5 clothing items
 clothes.pop(); // Removes last item 'belt'
 clothes.push('t-shirt'); // Adds 't-shirt'
@@ -452,4 +452,144 @@ console.log("Third item: " + clothes[2]);
 var favCar = {}; // empty favCar object
 favCar.color = 'Red'; //dot notation property: color w/ value: 'red'
 favCar.convertible = true; // dot notation property convertible w/ boolean value: true
-console.log(favCar); // logs the value of the favCar object
+console.log(favCar); // logs the value of the favCar object */
+
+//-----Adding methods to objects----
+
+// a founction added within an object is referred as a method
+
+/* var car = {};
+car.mileage = 98765;
+car.color = "red";
+console.log(car);
+car.turnTheKey = function () {
+    console.log("The engine is running!")
+}
+car.lightsOn = function () {
+    console.log("The lights are on!")
+}
+console.log(car);
+car.turnTheKey();
+car.lightsOn(); */
+
+//----bugs and errors---
+
+//----ReferenceError - variable not decleared anywhere
+/* console.log(c + d);
+console.log('This line never runs'); // wont run */
+
+//----SyntaxError - invalid js code used
+
+/* var test = 'item; // issue with the syntax */
+
+//-------Type error - trying to run method on unsupported data type
+
+//"hello".pop() 
+
+//-----out of range - out of allowed range of acceptable input values
+
+// (10).toString(100);
+
+//------ Error Handeling Throw, Try, catch
+
+//----- Using Try / Catch
+
+// try {
+//     console.log(c + d)
+// } catch(err) {
+//     console.log(err); // catch caught and showed the error
+//     console.log("There was an error")
+//     console.log("The error was saved to the error log")
+// }
+// console.log('My program does not stop');
+
+//----- Using Throw
+
+// try {
+//     throw new ReferenceError(); // construct custom error constructor
+// } catch(err) {
+//     console.log(err) // Outputs the error object
+//     console.log("There was a reference error") // Outputs the error string
+// }
+// console.log('My program dose not stop'); // Program cuntinues to run as usual
+
+//----undefined, nul, empty values
+
+//----null
+
+// var letters = 'abc';
+
+// console.log(letters.match(/d/)); // null indicates the absense of an object
+
+
+//--- undefined
+
+// var noise; // Variable noise created with out a value
+// console.log(noise); // Returns undefined because no value
+
+// noise = 'thunder'; // the value thunder is decleared to the noise variable
+// console.log(noise); // This time the value thunder is returned
+
+// var game = {
+//     score: 100
+// }
+
+// console.log(game.Score);
+
+//--- Empty values
+
+//-----Error prevention Exercise
+
+// function addTwoNums(a,b) {
+//     try { 
+//         if(typeof(a) !== 'number' ) {
+//             throw new ReferenceError("the first agruement is not a number");
+//         }
+//         else if (typeof(b) !== 'number') {
+//             throw new ReferenceError("the second agruement is not a number");
+//         }
+//         else (
+//             console.log(a + b)
+//         )
+//     } catch(err) {
+//         console.log('Error!', err)
+//     }
+// }
+
+// addTwoNums(5,'5')
+// console.log("It still works")
+
+//------- Defensive Programming Exercise
+
+// function letterFinder(word, match) {
+
+//     var condition1 = typeof(word) === 'string' && word.length >= 2;
+//     var condition2 = typeof(match) === 'string' && match.length == 1;
+//         if(condition1 && condition2) {
+//                 for(var i = 0; i < word.length; i++) {
+//                 if(word[i] == match) {
+//                     console.log('Found the', match, 'at', i)
+//                 } else {
+//                     console.log('---No match found at', i)
+//                 }
+//             }
+//         }
+//         else {
+//             console.log("Please pass correct arguments to the function.")
+//         }
+// }
+// letterFinder("Good Mood","o");
+
+// try {
+//     console.log('h')
+// } catch(e) {
+//     console.log('c')
+// }
+
+try {​
+    throw new Error();​
+    console.log('Hello');
+  } catch(err) {​
+    console.log('Goodbye');
+  }
+  
