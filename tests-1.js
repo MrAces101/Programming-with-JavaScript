@@ -280,3 +280,20 @@ while (year < 2023) {
             console.log(i);
     }
 } */
+
+//-------Functions-------
+
+function addTwoNums1() {
+    var a = 10;
+    var b = 20;
+    var c = a + b;
+    console.log(c);
+}
+addTwoNums1(); // Run / Call / invoke the function
+
+function addTwoNums(a,b) { // Assigned fixed values as Parameters within the function definition
+    var c = a + b; // code to be executed
+    console.log(c);
+}
+
+addTwoNums(2,23); // Passing values as Agruments passed to the function
