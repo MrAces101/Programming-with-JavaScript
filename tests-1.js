@@ -398,3 +398,58 @@ var rounded = Math.ceil(decimal);
 
 // Log the value of rounded to the console
 console.log(rounded); */
+
+//-------Strings 2------
+
+// Arrays are iterable
+
+/* var veggies = ['onion','parsley','carrot'];
+
+console.log(veggies.length);
+
+console.log(veggies[0]);
+console.log(veggies[1]);
+
+for (var i = 0; i < veggies.length; i++) {
+    console.log(veggies[i]);
+}
+
+// Strings !== arrays
+
+var greeting = 'Hello ';
+var name = 'John'; // Variable 'name'' with a value 'John'
+
+console.log(greeting + name); // joins Hello and John
+console.log(greeting.concat(name)); // joins Hello and John
+console.log(greeting,name); // joins Hello and John
+
+// Length property returns length
+console.log(greeting.length); // 6
+
+// charAt() method read single character at specific index
+console.log(greeting.charAt(0)); // 'Hello' = H
+
+// concat method joins strings
+console.log("He".concat("ll").concat("o ").concat("Wo").concat("rl").concat("d!"));
+
+// indexOf - returns first position that matches value
+console.log("ho-ho-ho".indexOf('h')); // 0
+console.log("ho-ho-ho".indexOf('o')); // 1 
+console.log("ho-ho-ho".indexOf('-')); // 2
+
+console.log(greeting.toUpperCase()); // "HELLO"
+console.log(greeting.toLowerCase()); // "hello" */
+
+//---- Array and object exercise
+
+var clothes = []; // Creates empty array
+clothes.push('Hat','Pants','shoes','backpack','belt'); // Adds 5 clothing items
+clothes.pop(); // Removes last item 'belt'
+clothes.push('t-shirt'); // Adds 't-shirt'
+console.log(clothes);
+console.log("Third item: " + clothes[2]);
+
+var favCar = {}; // empty favCar object
+favCar.color = 'Red'; //dot notation property: color w/ value: 'red'
+favCar.convertible = true; // dot notation property convertible w/ boolean value: true
+console.log(favCar); // logs the value of the favCar object
