@@ -298,7 +298,7 @@ function addTwoNums(a,b) { // Assigned fixed values as Parameters within the fun
 
 addTwoNums(2,23); // Passing values as Agruments passed to the function */
 
-function letterFinder(word,match) {
+/* function letterFinder(word,match) {
     for (var i = 0; i < word.length; i++) { // If the length of the value in peramiter 1 'word' is less than its lendth add 1
         if(word[i] == match){ // if the value of i matches the match value
             console.log('Found the', match, 'at', i); // If it matches return the found message
@@ -308,5 +308,56 @@ function letterFinder(word,match) {
         }
     }
 }
-letterFinder('test',"t"); // 'test is passed to peramiter 1 and 't' at paramiter 2
+letterFinder('test',"t"); // 'test is passed to peramiter 1 and 't' at paramiter 2 */
 
+
+//-----Intro to objecs------
+
+var storeManager = {} // Declares a store manager variable
+storeManager.rangeTilesPerTurn = 4; // Dot operator added to each name
+storeManager.socialskills = 50; // storeManager + Property key + Property value
+storeManager.streetSmarts = 50;
+storeManager.health = 30;
+storeManager.specialiAbility = "Finding buiness opportunities";
+storeManager.greeting = "Let's make some money";
+
+console.log(storeManager.greeting);
+
+var assistantManager = { // Object created
+    movement: 3, // values assigned to object
+    socialskills: 30,
+    streetSmarts: 30,
+    health: 40
+}
+assistantManager.greeting = "Glad to be here";
+console.log(assistantManager);
+
+// Object using brackets notation
+var assistantManager2 = {};
+    assistantManager2['health']= 40;
+    assistantManager2['movement']= 3;
+    assistantManager2["socialSkills"]= 30; // Bracket notation can accept spaces due to the string value
+    assistantManager2['socialSmarts']= 30;
+    assistantManager2['greeting']= "Come on in!";
+
+console.log(assistantManager2);
+
+//----Sorting data in Arrays-----
+
+ /* var train1 = ['wheat','barley','potato','salt','rocks']; // variable train1 has and array of carriages
+ console.log(3); // Used to call 'salt' */
+
+ var names = [];
+ names.push("John");
+ names.push("Hanna")
+ names.push("Brandon");
+
+ function arrayBuilder(one,two,three) {
+    var arr = [];
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    return arr;
+ }
+
+ arrayBuilder('apple','pear','plum');
