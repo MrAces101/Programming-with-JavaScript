@@ -313,7 +313,7 @@ letterFinder('test',"t"); // 'test is passed to peramiter 1 and 't' at paramiter
 
 //-----Intro to objecs------
 
-var storeManager = {} // Declares a store manager variable
+/* var storeManager = {} // Declares a store manager variable
 storeManager.rangeTilesPerTurn = 4; // Dot operator added to each name
 storeManager.socialskills = 50; // storeManager + Property key + Property value
 storeManager.streetSmarts = 50;
@@ -340,12 +340,12 @@ var assistantManager2 = {};
     assistantManager2['socialSmarts']= 30;
     assistantManager2['greeting']= "Come on in!";
 
-console.log(assistantManager2);
+console.log(assistantManager2); */
 
 //----Sorting data in Arrays-----
 
  /* var train1 = ['wheat','barley','potato','salt','rocks']; // variable train1 has and array of carriages
- console.log(3); // Used to call 'salt' */
+ console.log(3); // Used to call 'salt' 
 
  var names = [];
  names.push("John");
@@ -357,7 +357,44 @@ console.log(assistantManager2);
     arr.push(one);
     arr.push(two);
     arr.push(three);
-    return arr;
+    console.log(arr);
  }
 
- arrayBuilder('apple','pear','plum');
+ arrayBuilder('apple','pear','plum'); */
+
+ //------Math-------
+
+ //----------Math.random----
+
+ // Generate a decimal number between 0 and 0.99
+ /* Math.random();
+
+ // Save it to a varaible
+ var decimal = Math.random();
+
+ // Log the value of decimal to the console
+ console.log(decimal);
+
+ // Log the value of decimal Multiplied by 10 to the console
+ console.log(decimal * 10) */
+
+//-------Math.ciel-----
+
+// round numbers upwards
+/* var rounded = Math.ceil(0.001);
+var rounded1 = Math.ceil(1.001);
+var rounded2 = Math.ceil(2.001);
+var rounded3 = Math.ceil(3.001);
+
+console.log(rounded3 * 10); */
+
+//----Return random Integer-------
+
+// Get a random number between 0 and 0.99 times 10 and return it to the console
+/* var decimal = Math.random() * 100;
+
+// Round up the value of decimal
+var rounded = Math.ceil(decimal);
+
+// Log the value of rounded to the console
+console.log(rounded); */
