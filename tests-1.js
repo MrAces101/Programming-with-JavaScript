@@ -247,3 +247,36 @@ while (year < 2023) {
         console.log(i + " times " + j + " equals " + i * j);
     }
 } */
+
+
+//------Conditionals and loops: Exercises----
+
+// Exersize 1: Using for loops with if else conditionals
+/* for (var i = 1; i <= 10; i++) {
+    if (i == 1) {
+        console.log("Gold medal");
+    } else if (i == 2) {
+        console.log("Silver medal");
+    } else if (i == 3) {
+        console.log("Bronse medal")
+    } else {
+        console.log(i);
+    }
+} */
+
+// Exersize 2: Using for loops with if else conditionals
+/* for (var i = 1; i <= 10; i++) {
+    switch(i) {
+        case 1:
+            console.log("Gold medal");
+            break;
+        case 2:
+            console.log("Silver medal");
+            break;
+        case 3:
+            console.log("Bronse medal");
+            break;
+        default:
+            console.log(i);
+    }
+} */
