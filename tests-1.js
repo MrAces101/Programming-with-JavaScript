@@ -657,13 +657,16 @@ console.log('This line never runs'); // wont run */
 
 // test();
 
-// counting down using recursion
-let i = 5; // initial value = 1
-function test() {
-    console.log(i);
-    i--; // Add one to i 
-    if (i === 0) return; // Until this condition is met
-    test();
-}
+// // counting down using recursion
+// let i = 5; // initial value = 5
+// function test() {
+//     console.log(i);
+//     i--; // Minus one from the value of i 
+//     if (i === 0) return; // Until this condition is met
+//     test();
+// }
 
-test();
+// test();
+
+//----- Understanding Scope
+
