@@ -585,3 +585,85 @@ console.log('This line never runs'); // wont run */
 // } catch(e) {
 //     console.log('c')
 // }
+
+//---Function Programming
+
+// var cur1 = 100; // Currency 1
+// var cur2 = 0; // Currency 2
+// var eRate = 1.2; // Exchange Rate
+
+// function convertCurrency(amount, rate) { //function 'ConvertCurrency'  with 2 properties 'amount' and 'rate'
+//     return amount * rate; // return the result of amount multiply by the rate
+// }
+
+// cur2 = convertCurrency(cur1, eRate); // currency 2 value = the value of the founction
+
+// console.log(cur2);
+
+// function consoleLog(val) {
+//     console.log(val)
+//     return val
+// }
+
+// console.log('Hello')
+
+// function doubleIt(num) {  // A function w/ a property 'num'
+//     return num * 2 // Returns the property multiplied by 2
+// }
+
+// function objectMaker(val) {
+//     return {
+//         Prop: val // returns an object with a single property set as 'val'
+//     }
+// }
+
+// // objectMaker(20);
+
+// // doubleIt(10);
+
+// console.log(
+//     objectMaker( doubleIt(123))
+//     )
+
+// recursive functions
+
+// function example() {
+//     console.log('Line One');
+//     console.log('Line two');
+//     console.log('Line three');
+//     // example();
+// }
+
+// example();
+
+// let counter = 5;
+// function example() {
+//     console.log(counter);
+//     counter = counter - 1;
+//     if (counter === 0) return;
+//     example();
+// }
+
+// example();
+
+// // counting up using recursion
+// let i = 1; // initial value = 1
+// function test() {
+//     console.log(i);
+//     i++; // Add one to i 
+//     if (i === 6) return; // Until this condition is met
+//     test();
+// }
+
+// test();
+
+// counting down using recursion
+let i = 5; // initial value = 1
+function test() {
+    console.log(i);
+    i--; // Add one to i 
+    if (i === 0) return; // Until this condition is met
+    test();
+}
+
+test();
