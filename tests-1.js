@@ -987,3 +987,62 @@ console.log('This line never runs'); // wont run */
 //     h1.innerText = input.value
 // })
 
+// Convert JSON to string using parse
+
+// A JSON greeting
+
+// // A JSON string with one property named 'hello'
+// '{"greeting":"hello"}' 
+
+// // JSON string assigned to a variable named jsonStr
+// const jsonStr = '{"greeting":"hello"}'
+
+// // Run JSON parse method on the variable
+// JSON.parse(jsonStr) 
+
+// // Assign JSON parse method to a variable aPlainObj
+// const aPlainObj = JSON.parse(jsonStr)
+
+// // Reassigned value of greeting property to 'hi'
+// aPlainObj.greeting = 'hi'
+
+// // Inspect aPlainObj object to see result
+// aPlainObj
+
+// // Convert an object to a JSON string
+
+// // An object named 'data' and assign some properties and values
+// const data = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     greeting: "Hello"
+// }
+
+// // Run JSON stringfy method on object
+// JSON.stringify(data) 
+
+// // result = '{"firstName":"John","lastName":"Doe","greeting":"Hello"}'
+
+class Animal {
+
+}
+
+class Dog extends Animal {
+    constructor() {
+        this.noise = "bark";
+    }
+
+    makeNoise() {
+      return this.noise;
+    }
+}
+
+class Wolf extends Dog {
+    constructor() {
+        super();
+        this.noise = "growl";
+    }
+}
+
+var result = new Wolf();
+console.log(result.makeNoise());
