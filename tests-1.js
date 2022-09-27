@@ -903,8 +903,36 @@ console.log('This line never runs'); // wont run */
 
 //=======Join arrays and objects using rest operator========//
 
-const fruits = ['apple','pear','mango','pineapple'] // array for fruits
-const berries = ['blueberry','raspberry','strawberry'] // Array of berries
-const fruitAndBerries = [...fruits, ...berries] // Join fruits and Berries
-console.log(fruitAndBerries); // Log value to console
+// // Join arrays using rest method
+// const fruits = ['apple','pear','mango','pineapple'] // array for fruits
+// const berries = ['blueberry','raspberry','strawberry'] // Array of berries
+// const fruitAndBerries = [...fruits, ...berries] // Join fruits and Berries
+// console.log(fruitAndBerries); // Log value to console
 
+// // Join objects using rest method
+// const player = {hasLegs: 2, canTeleport: true, hasHoverBoard: true, canBuildHome: true, manageableLots: 10, pricePerLot: 1000}
+// const district = {hasMainLot: true, lots: 10, canResell: true, canHaveManyOwners: true}
+// const playerOwnDistrict = {...player, ...district}
+// console.log(playerOwnDistrict);
+
+// // Add new items to array with using push()
+// let veggies = ['onion','parsley','lettuce','tomato'] // Array of veggies
+// veggies = [...veggies, 'carrot','beetroot','potato','garlic'] // Array of veggies plus extra veggies
+// console.log(veggies); // Log compiled values to console
+
+// // Convert string to array
+// const greeting = "Hello World!"; // string 'Hello Wolrd!'
+// const arrayOfChars = [...greeting] // string converted to an array of letters
+// console.log(arrayOfChars); // log values to console
+
+// // Copy object to seperate object
+// const Car1 = {speed: 200, color: 'yellow'}
+// const car2 = {...Car1}
+// car2.speed = 201
+// console.log(Car1.speed, car2.speed);
+
+// // Copy array to seperate array
+// const fruits1 = ['apples','pears']
+// const fruits2 = [...fruits1]
+// fruits1.pop()
+// console.log(fruits1, "not", fruits2);
