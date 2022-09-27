@@ -1023,26 +1023,22 @@ console.log('This line never runs'); // wont run */
 
 // // result = '{"firstName":"John","lastName":"Doe","greeting":"Hello"}'
 
-class Animal {
+// function concatString(strA, strB) {
+//     console.log(strA + strB)
+// }
 
-}
+// concatString('Straw','berry') // Strawberry
+// concatString('abc','def') // abcdef
+// concatString(1, 2) // 3 <----oops
 
-class Dog extends Animal {
-    constructor() {
-        this.noise = "bark";
-    }
+//========= Jest setup=====
 
-    makeNoise() {
-      return this.noise;
-    }
-}
+// npm init -y 
+// npm install --save-dev jest
+// edit paskage.json (Jest content to "jest")
 
-class Wolf extends Dog {
-    constructor() {
-        super();
-        this.noise = "growl";
-    }
-}
+// function addFive(val) {
+//     return val + 5;
+// };
 
-var result = new Wolf();
-console.log(result.makeNoise());
+// module.exports = addFive;
