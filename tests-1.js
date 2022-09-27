@@ -693,3 +693,46 @@ console.log('This line never runs'); // wont run */
 // addTwoNums(getNumber(), getNumber())
 
 
+//-------Object Oriented Programming
+
+// //------Using Function
+
+// var shoes = 100;
+// var stateTax = 1.2;
+
+// function totalPrice(shoes, tax) {
+//     return shoes * tax;
+// }
+
+// var toPay = totalPrice(shoes, stateTax);
+
+// console.log(toPay);
+
+// //--------Using OOP 1
+
+// var purchase1 = {
+//     shoes: 100,
+//     stateTax: 1.2,
+//     totalPrice: function() {
+//         var calculation = this.shoes * this.stateTax;
+//         console.log('total price:', calculation);
+//     }
+// }
+
+// purchase1.totalPrice();
+
+// //--------Using OOP 2
+
+// var purchase2 = {
+//     shoes: 50,
+//     stateTax: 1.2,
+//     totalPrice: function() {
+//         var calculation = this.shoes * this.stateTax;
+//         console.log('total price:', calculation);
+//     }
+// }
+
+// purchase2.totalPrice();
+
+
+//--------------------CLASSES-----------
