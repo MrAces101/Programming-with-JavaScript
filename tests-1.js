@@ -936,3 +936,54 @@ console.log('This line never runs'); // wont run */
 // const fruits2 = [...fruits1]
 // fruits1.pop()
 // console.log(fruits1, "not", fruits2);
+
+// //============= DOM Manipulation ======
+// const h2 = document.createElement('h2')
+// h2.innerText = "This is a DOM created H2 heading"
+// h2.setAttribute('id','sub-heading')
+// h2.setAttribute('class','secondary')
+// h2
+// document.body.appendChild(h2)
+
+// //======== Using Selectors DOM ========
+
+// document.querySelector('element') // this highlights the chosen selector ex. 'p', 'h1', 'div' etc..
+// document.querySelectorAll('element') // this highlights the All occurances of the chosen selector ex. 'p', 'h1', 'div' etc..
+// document.getElementById('id-string') // this returns the ID plus info of selected id ex 'heading', 'photo', 'imgOne' etc..
+// document.getElementsByClassName('class-string') // this returns the ID plus info of selected id ex 'txt', 'photo', 'imgOne' etc..
+
+// //======= Event Handling ========
+// const target = document.querySelector('body')
+
+// function handleClick() {
+//     console.log('Clicked the body')
+// }
+
+// target.addEventListener('click', handleClick)
+
+// // Action: Click on the body of the page
+
+// // Method 2
+// function handleClick2() { // in console
+//     console.log('Clicked the heading')
+// }
+
+// <h1 onclick="handleClick2()">Example Domain</h1> // on page
+
+// // Action: Click on the heading of the page
+
+// //==== Update web page content using DOM ====
+// var h1 = document.createElement('h1')
+// h1.innerText = "Type into the input to make this text change"
+
+// var input = document.createElement('input')
+// input.setAttribute('type', 'text')
+
+// document.body.innerText = '';
+// document.body.appendChild(h1);
+// document.body.appendChild(input);
+
+// input.addEventListener('change', function() {
+//     h1.innerText = input.value
+// })
+
