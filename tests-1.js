@@ -892,11 +892,19 @@ console.log('This line never runs'); // wont run */
 
 //=============Rest Operater==============//
 
-let top4 = ["The Colosseum", "Trevi FOuntain", "The Vatican City"
-];
+// let top4 = ["The Colosseum", "Trevi FOuntain", "The Vatican City"
+// ];
 
-const [] = top4;
+// const [] = top4;
 
-const [first, ...secondVisit] = top4;
+// const [...secondVisit] = top4;
 
-console.log(top4);
+// console.log(top4);
+
+//=======Join arrays and objects using rest operator========//
+
+const fruits = ['apple','pear','mango','pineapple'] // array for fruits
+const berries = ['blueberry','raspberry','strawberry'] // Array of berries
+const fruitAndBerries = [...fruits, ...berries] // Join fruits and Berries
+console.log(fruitAndBerries); // Log value to console
+
