@@ -833,3 +833,70 @@ console.log('This line never runs'); // wont run */
 // train5.toggleLights(); // undefined
 // train5.lightsStatus(); // Lights on? true
 // highSpeed1.toggleLights(); // Lights on? true, Lights are 100% operational.
+
+
+//------Using forEach on arrays------
+
+// const veggies = ['onion', 'garlic', 'potato'];
+// veggies.forEach( function(veggie, index) {
+//     console.log(`${index}. ${veggie}`);
+// });
+
+// const fruits = ['kiwi','mango','apple','pear'];
+// fruits.forEach( function(fruit, index) {
+//     console.log(`${index}. ${fruit}`)
+// });
+
+// //-------Using filter() with arrays-----
+
+// const nums = [1,10,20,30,40,50];
+// nums.filter( function(num) {
+//     return num > 20;
+// });
+
+// //-----Using map on arrays-----
+
+// [0,10,20,30,40,50].map( function(num) {
+//     return num / 10
+// });
+
+// //=------maps and sets-------
+// let bestBoxers = new Map();
+// bestBoxers.set(1, "The Champion");
+// bestBoxers.set(2, "The Runner-up");
+// bestBoxers.set(3, "The third place");
+
+// console.log(bestBoxers);
+
+// bestBoxers.get(1); // 'The Champion'
+
+// //=============Working with sets==============//
+
+// const repetitiveFruits = ['apple','pear','apple','pear','plum', 'apple'];
+// const uniqueFruits = new Set(repetitiveFruits);
+// console.log(uniqueFruits);
+
+
+//=============Spread Operater==============//
+
+// let top3 = ["The Colosseum", "Trevi FOuntain", "The Vatican City"
+// ];
+
+// function showItinerary(place1, place2, place3) {
+//     console.log("Visit " + place1);
+//     console.log("Visit " + place2);
+//     console.log("Finish with a visit to " + place3);
+// }
+
+// console.log(showItinerary(...top3));
+
+//=============Rest Operater==============//
+
+let top4 = ["The Colosseum", "Trevi FOuntain", "The Vatican City"
+];
+
+const [] = top4;
+
+const [first, ...secondVisit] = top4;
+
+console.log(top4);
